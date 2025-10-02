@@ -38,73 +38,33 @@ export default [
     exact: true
   },
   {
-    path: '/renzi-blog/blog',
-    component: ComponentCreator('/renzi-blog/blog', 'bde'),
+    path: '/renzi-blog/archive',
+    component: ComponentCreator('/renzi-blog/archive', '412'),
     exact: true
   },
   {
-    path: '/renzi-blog/blog/archive',
-    component: ComponentCreator('/renzi-blog/blog/archive', '232'),
+    path: '/renzi-blog/authors',
+    component: ComponentCreator('/renzi-blog/authors', 'bd5'),
     exact: true
   },
   {
-    path: '/renzi-blog/blog/authors',
-    component: ComponentCreator('/renzi-blog/blog/authors', 'dc5'),
+    path: '/renzi-blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/renzi-blog/authors/all-sebastien-lorber-articles', 'edb'),
     exact: true
   },
   {
-    path: '/renzi-blog/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/renzi-blog/blog/authors/all-sebastien-lorber-articles', '896'),
+    path: '/renzi-blog/authors/yangshun',
+    component: ComponentCreator('/renzi-blog/authors/yangshun', '776'),
     exact: true
   },
   {
-    path: '/renzi-blog/blog/authors/yangshun',
-    component: ComponentCreator('/renzi-blog/blog/authors/yangshun', '922'),
+    path: '/renzi-blog/first-blog-post',
+    component: ComponentCreator('/renzi-blog/first-blog-post', '0d4'),
     exact: true
   },
   {
-    path: '/renzi-blog/blog/first-blog-post',
-    component: ComponentCreator('/renzi-blog/blog/first-blog-post', '267'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/blog/long-blog-post',
-    component: ComponentCreator('/renzi-blog/blog/long-blog-post', 'e48'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/blog/mdx-blog-post',
-    component: ComponentCreator('/renzi-blog/blog/mdx-blog-post', '137'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/blog/tags',
-    component: ComponentCreator('/renzi-blog/blog/tags', '555'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/blog/tags/docusaurus',
-    component: ComponentCreator('/renzi-blog/blog/tags/docusaurus', '542'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/blog/tags/facebook',
-    component: ComponentCreator('/renzi-blog/blog/tags/facebook', '49e'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/blog/tags/hello',
-    component: ComponentCreator('/renzi-blog/blog/tags/hello', '74e'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/blog/tags/hola',
-    component: ComponentCreator('/renzi-blog/blog/tags/hola', 'ed9'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/blog/welcome',
-    component: ComponentCreator('/renzi-blog/blog/welcome', '419'),
+    path: '/renzi-blog/hello-world',
+    component: ComponentCreator('/renzi-blog/hello-world', '795'),
     exact: true
   },
   {
@@ -113,88 +73,54 @@ export default [
     exact: true
   },
   {
-    path: '/renzi-blog/docs',
-    component: ComponentCreator('/renzi-blog/docs', '6c2'),
-    routes: [
-      {
-        path: '/renzi-blog/docs',
-        component: ComponentCreator('/renzi-blog/docs', '155'),
-        routes: [
-          {
-            path: '/renzi-blog/docs',
-            component: ComponentCreator('/renzi-blog/docs', 'dec'),
-            routes: [
-              {
-                path: '/renzi-blog/docs/category/tutorial---basics',
-                component: ComponentCreator('/renzi-blog/docs/category/tutorial---basics', '588'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/category/tutorial---extras',
-                component: ComponentCreator('/renzi-blog/docs/category/tutorial---extras', 'd79'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/intro',
-                component: ComponentCreator('/renzi-blog/docs/intro', '249'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/renzi-blog/docs/tutorial-basics/congratulations', '704'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/renzi-blog/docs/tutorial-basics/create-a-blog-post', 'f6a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/renzi-blog/docs/tutorial-basics/create-a-document', 'd21'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/renzi-blog/docs/tutorial-basics/create-a-page', '4d0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/renzi-blog/docs/tutorial-basics/deploy-your-site', '60b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/renzi-blog/docs/tutorial-basics/markdown-features', '59a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/renzi-blog/docs/tutorial-extras/manage-docs-versions', '17c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/renzi-blog/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/renzi-blog/docs/tutorial-extras/translate-your-site', 'd0f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    path: '/renzi-blog/mdx-blog-post',
+    component: ComponentCreator('/renzi-blog/mdx-blog-post', '13a'),
+    exact: true
+  },
+  {
+    path: '/renzi-blog/tags',
+    component: ComponentCreator('/renzi-blog/tags', '77e'),
+    exact: true
+  },
+  {
+    path: '/renzi-blog/tags/demo',
+    component: ComponentCreator('/renzi-blog/tags/demo', '491'),
+    exact: true
+  },
+  {
+    path: '/renzi-blog/tags/docusaurus',
+    component: ComponentCreator('/renzi-blog/tags/docusaurus', '1c3'),
+    exact: true
+  },
+  {
+    path: '/renzi-blog/tags/facebook',
+    component: ComponentCreator('/renzi-blog/tags/facebook', 'c4e'),
+    exact: true
+  },
+  {
+    path: '/renzi-blog/tags/hello',
+    component: ComponentCreator('/renzi-blog/tags/hello', '3b3'),
+    exact: true
+  },
+  {
+    path: '/renzi-blog/tags/hola',
+    component: ComponentCreator('/renzi-blog/tags/hola', 'a18'),
+    exact: true
+  },
+  {
+    path: '/renzi-blog/tags/学习笔记',
+    component: ComponentCreator('/renzi-blog/tags/学习笔记', '4f5'),
+    exact: true
+  },
+  {
+    path: '/renzi-blog/welcome',
+    component: ComponentCreator('/renzi-blog/welcome', '737'),
+    exact: true
+  },
+  {
+    path: '/renzi-blog/',
+    component: ComponentCreator('/renzi-blog/', 'af2'),
+    exact: true
   },
   {
     path: '/renzi-blog/',

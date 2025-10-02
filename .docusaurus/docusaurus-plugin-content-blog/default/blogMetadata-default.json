@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/renzi-blog/blog",
+  "blogBasePath": "/renzi-blog/",
   "blogTitle": "Blog",
-  "authorsListPath": "/renzi-blog/blog/authors"
+  "authorsListPath": "/renzi-blog/authors"
 }

@@ -30,7 +30,7 @@ export default {
   "url": "https://mengrenzi.github.io",
   "baseUrl": "/renzi-blog/",
   "organizationName": "mengrenzi",
-  "projectName": "mengrenzi.github.io",
+  "projectName": "renzi-blog",
   "onBrokenLinks": "throw",
   "trailingSlash": false,
   "i18n": {
@@ -45,11 +45,10 @@ export default {
     [
       "classic",
       {
-        "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
+        "docs": false,
         "blog": {
+          "routeBasePath": "/",
+          "postsPerPage": 5,
           "showReadingTime": true,
           "feedOptions": {
             "type": [
@@ -58,10 +57,10 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
-          "onUntruncatedBlogPosts": "warn"
+          "onUntruncatedBlogPosts": "warn",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -77,18 +76,12 @@ export default {
       "disableSwitch": false
     },
     "navbar": {
-      "title": "My Site",
+      "title": "Renzi",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
       },
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
         {
           "to": "/blog",
           "label": "Blog",
