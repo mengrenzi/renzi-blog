@@ -28,7 +28,7 @@ export default {
     "experimental_router": "browser"
   },
   "url": "https://USERNAME.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/renzi-blog/",
   "organizationName": "renzimeng",
   "projectName": "renzimeng.github.io",
   "onBrokenLinks": "throw",
