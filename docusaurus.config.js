@@ -14,7 +14,7 @@ const config = {
   projectName: 'renzi-blog', // *** 仓库名 ***
 
   // 先放宽校验，让它能过（成功后你再改回 'throw'）
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   trailingSlash: false,
