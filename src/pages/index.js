@@ -68,7 +68,7 @@ export default function Home() {
         )}
 
         <p style={{ marginTop: 16 }}>
-          <Link to="/blog">查看全部 →</Link>
+          <Link to="/">查看全部 →</Link>
         </p>
       </main>
     </Layout>

@@ -31,7 +31,7 @@ export default {
   "baseUrl": "/renzi-blog/",
   "organizationName": "mengrenzi",
   "projectName": "renzi-blog",
-  "onBrokenLinks": "warn",
+  "onBrokenLinks": "throw",
   "trailingSlash": false,
   "presets": [
     [
