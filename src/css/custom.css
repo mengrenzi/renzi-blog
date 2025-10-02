@@ -31,7 +31,7 @@
 
 .avatar__photo,
 img.avatar {
-  border-radius: 2 !important; /* 去掉圆角 */
+  border-radius: 30px !important; /* 去掉圆角 */
   width: auto !important; /* 不强制固定宽度 */
   height: auto !important; /* 不强制固定高度 */
   max-width: 60px; /* 限制最大宽度，等比缩放 */
