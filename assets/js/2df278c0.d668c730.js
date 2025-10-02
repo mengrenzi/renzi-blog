@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[273],{8073:e=>{e.exports=JSON.parse('{"tags":[{"label":"note","permalink":"/renzi-blog/tags/note","count":1}]}')}}]);

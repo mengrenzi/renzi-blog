@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mengrenzi.github.io/renzi-blog</id>
+    <title>Renzi's Blog Blog</title>
+    <updated>2025-10-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://mengrenzi.github.io/renzi-blog"/>
+    <subtitle>Renzi's Blog Blog</subtitle>
+    <icon>https://mengrenzi.github.io/renzi-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[我的第一篇文章]]></title>
+        <id>https://mengrenzi.github.io/renzi-blog/hello-world</id>
+        <link href="https://mengrenzi.github.io/renzi-blog/hello-world"/>
+        <updated>2025-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[这是我用 Docusaurus v3 创建的第一篇文章 🎉]]></summary>
+        <content type="html"><![CDATA[<p>这是我用 <strong>Docusaurus v3</strong> 创建的第一篇文章 🎉</p>
+<ul>
+<li>支持 Markdown</li>
+<li>可以插入代码块：</li>
+</ul>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install</span><br></span></code></pre></div></div>]]></content>
+        <author>
+            <name>Renzi Meng</name>
+            <uri>https://www.linkedin.com/in/renzimeng</uri>
+        </author>
+        <category label="note" term="note"/>
+    </entry>
+</feed>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Renzi's Blog Blog</title>
+        <link>https://mengrenzi.github.io/renzi-blog</link>
+        <description>Renzi's Blog Blog</description>
+        <lastBuildDate>Wed, 01 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[我的第一篇文章]]></title>
+            <link>https://mengrenzi.github.io/renzi-blog/hello-world</link>
+            <guid>https://mengrenzi.github.io/renzi-blog/hello-world</guid>
+            <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[这是我用 Docusaurus v3 创建的第一篇文章 🎉]]></description>
+            <content:encoded><![CDATA[<p>这是我用 <strong>Docusaurus v3</strong> 创建的第一篇文章 🎉</p>
+<ul>
+<li>支持 Markdown</li>
+<li>可以插入代码块：</li>
+</ul>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install</span><br></span></code></pre></div></div>]]></content:encoded>
+            <category>note</category>
+        </item>
+    </channel>
+</rss>

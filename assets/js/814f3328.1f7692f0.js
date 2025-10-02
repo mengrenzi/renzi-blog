@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u6211\u7684\u7b2c\u4e00\u7bc7\u6587\u7ae0","permalink":"/renzi-blog/hello-world","unlisted":false,"date":"2025-10-01T00:00:00.000Z"}]}')}}]);
