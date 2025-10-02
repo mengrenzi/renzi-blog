@@ -31,16 +31,8 @@ export default {
   "baseUrl": "/renzi-blog/",
   "organizationName": "mengrenzi",
   "projectName": "renzi-blog",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "trailingSlash": false,
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      "en"
-    ],
-    "path": "i18n",
-    "localeConfigs": {}
-  },
   "presets": [
     [
       "classic",
@@ -59,8 +51,7 @@ export default {
           },
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
-          "onUntruncatedBlogPosts": "warn",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "onUntruncatedBlogPosts": "warn"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -78,17 +69,17 @@ export default {
     "navbar": {
       "title": "Renzi",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Logo",
         "src": "img/logo.svg"
       },
       "items": [
         {
-          "to": "/blog",
+          "to": "/",
           "label": "Blog",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/mengrenzi/renzi-blog",
           "label": "GitHub",
           "position": "right"
         }
@@ -99,46 +90,20 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
-            }
-          ]
-        },
-        {
           "title": "More",
           "items": [
             {
               "label": "Blog",
-              "to": "/blog"
+              "to": "/"
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/mengrenzi"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "© 2025 Renzi"
     },
     "prism": {
       "theme": {
@@ -363,6 +328,14 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "path": "i18n",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
+  },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [

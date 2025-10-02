@@ -1,0 +1,175 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "780": [
+      780
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "1f391b9e": [
+      869,
+      61
+    ],
+    "36994c47": [
+      858
+    ],
+    "393be207": [
+      134
+    ],
+    "621db11d": [
+      869,
+      212
+    ],
+    "814f3328": [
+      472
+    ],
+    "8c514a6c": [
+      26
+    ],
+    "a7456010": [
+      235
+    ],
+    "acecf23e": [
+      903
+    ],
+    "c4f5d8e4": [
+      634
+    ],
+    "styles": [
+      61,
+      212,
+      354,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "26": {
+      "js": [
+        {
+          "file": "assets/js/8c514a6c.42e0ba0d.js",
+          "hash": "b64d297000f278f3",
+          "publicPath": "/renzi-blog/assets/js/8c514a6c.42e0ba0d.js"
+        }
+      ]
+    },
+    "61": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.ef30e9bd.js",
+          "hash": "2271fb6ad3585dab",
+          "publicPath": "/renzi-blog/assets/js/1f391b9e.ef30e9bd.js"
+        }
+      ]
+    },
+    "134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.d8d72a14.js",
+          "hash": "93f2a5e67104c0e9",
+          "publicPath": "/renzi-blog/assets/js/393be207.d8d72a14.js"
+        }
+      ]
+    },
+    "212": {
+      "js": [
+        {
+          "file": "assets/js/621db11d.6004ae0c.js",
+          "hash": "eee3df436989e206",
+          "publicPath": "/renzi-blog/assets/js/621db11d.6004ae0c.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.7599b042.js",
+          "hash": "00e868861652015f",
+          "publicPath": "/renzi-blog/assets/js/a7456010.7599b042.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.8bc95a1c.js",
+          "hash": "f60f9477845f81b8",
+          "publicPath": "/renzi-blog/assets/js/runtime~main.8bc95a1c.js"
+        }
+      ]
+    },
+    "472": {
+      "js": [
+        {
+          "file": "assets/js/814f3328.82fe03ef.js",
+          "hash": "06157d1a5fb953e3",
+          "publicPath": "/renzi-blog/assets/js/814f3328.82fe03ef.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.5530b05a.js",
+          "hash": "97e0baf0cc8ff7df",
+          "publicPath": "/renzi-blog/assets/js/c4f5d8e4.5530b05a.js"
+        }
+      ]
+    },
+    "780": {
+      "js": [
+        {
+          "file": "assets/js/780.cbb27297.js",
+          "hash": "2a30e0f85ea995ab",
+          "publicPath": "/renzi-blog/assets/js/780.cbb27297.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.9f6600ff.js",
+          "hash": "703fea738d210890",
+          "publicPath": "/renzi-blog/assets/js/main.9f6600ff.js"
+        }
+      ]
+    },
+    "858": {
+      "js": [
+        {
+          "file": "assets/js/36994c47.0cd4d757.js",
+          "hash": "81d03ac7213ab3d9",
+          "publicPath": "/renzi-blog/assets/js/36994c47.0cd4d757.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.51a1344f.css",
+          "hash": "0a22a7f989f9a073",
+          "publicPath": "/renzi-blog/assets/css/styles.51a1344f.css"
+        }
+      ]
+    },
+    "903": {
+      "js": [
+        {
+          "file": "assets/js/acecf23e.35c43010.js",
+          "hash": "c55359a7c913a016",
+          "publicPath": "/renzi-blog/assets/js/acecf23e.35c43010.js"
+        }
+      ]
+    }
+  }
+}

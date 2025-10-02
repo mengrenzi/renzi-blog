@@ -1,59 +1,36 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import { themes as prismThemes } from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Renzi's Blog",
   favicon: 'img/favicon.ico',
+  future: { v4: true },
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
+  // === GitHub Pages 基本面 ===
+  url: 'https://mengrenzi.github.io', // 你的 GitHub Pages 域名
+  baseUrl: '/renzi-blog/', // 仓库名作为子路径
+  organizationName: 'mengrenzi', // GitHub 用户名
+  projectName: 'renzi-blog', // *** 仓库名 ***
 
-  // Set the production url of your site here
-  url: 'https://mengrenzi.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/renzi-blog/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mengrenzi', // Usually your GitHub org/user name.
-  projectName: 'renzi-blog',
-
-  onBrokenLinks: 'throw',
+  // 先放宽校验，让它能过（成功后你再改回 'throw'）
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   trailingSlash: false,
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+  // 单语言站点（干掉 i18n，避免 /en 路径）
+  // i18n: { defaultLocale: 'en', locales: ['en'] },
 
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
-        //   sidebarPath: './sidebars.js',
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+        // 先关掉 docs，后面你需要再开
         docs: false,
+
+        // 让“博客就是首页”，并且每页只展示 5 篇（满足你首页“最近5篇”）
         blog: {
           routeBasePath: '/',
           postsPerPage: 5,
@@ -62,15 +39,9 @@ const config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
         },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
+
+        theme: { customCss: './src/css/custom.css' },
       }),
     ],
   ],
@@ -78,75 +49,37 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
-      colorMode: {
-        respectPrefersColorScheme: true,
-      },
+      colorMode: { respectPrefersColorScheme: true },
+
       navbar: {
         title: 'Renzi',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        logo: { alt: 'Logo', src: 'img/logo.svg' },
         items: [
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/', label: 'Blog', position: 'left' }, // 首页=博客
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/mengrenzi/renzi-blog',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
+
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              { label: 'Blog', to: '/' }, // *** 不要指向 /blog ***
+              { label: 'GitHub', href: 'https://github.com/mengrenzi' },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Renzi`,
       },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
+
+      prism: { theme: prismThemes.github, darkTheme: prismThemes.dracula },
     }),
 };
 

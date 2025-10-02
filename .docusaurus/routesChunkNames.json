@@ -1,122 +1,27 @@
 {
-  "/renzi-blog/__docusaurus/debug-101": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---renzi-blog-docusaurus-debugb-38-69d"
-    }
-  },
-  "/renzi-blog/__docusaurus/debug/config-52f": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---renzi-blog-docusaurus-debugb-38-69d"
-    }
-  },
-  "/renzi-blog/__docusaurus/debug/content-eec": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---renzi-blog-docusaurus-debugb-38-69d"
-    },
-    "__props": "__props---renzi-blog-docusaurus-debug-content-7-ea-629"
-  },
-  "/renzi-blog/__docusaurus/debug/globalData-789": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---renzi-blog-docusaurus-debugb-38-69d"
-    }
-  },
-  "/renzi-blog/__docusaurus/debug/metadata-803": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---renzi-blog-docusaurus-debugb-38-69d"
-    }
-  },
-  "/renzi-blog/__docusaurus/debug/registry-d6d": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---renzi-blog-docusaurus-debugb-38-69d"
-    }
-  },
-  "/renzi-blog/__docusaurus/debug/routes-dc1": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---renzi-blog-docusaurus-debugb-38-69d"
-    }
-  },
-  "/renzi-blog/archive-412": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
-    "__context": {
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "__props": "__props---renzi-blog-archive-7-f-4-ffa"
-  },
   "/renzi-blog/authors-bd5": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---renzi-blog-authorsace-9a3"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---renzi-blog-archive-369-503"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "__props": "__props---renzi-blog-authors-8-c-5-1a1"
-  },
-  "/renzi-blog/hello-world-795": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---renzi-blog-authorsace-9a3"
-      },
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "content": "content---renzi-blog-hello-worlde-27-4df"
+    "sidebar": "814f3328",
+    "__props": "8c514a6c"
   },
   "/renzi-blog/markdown-page-21a": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---renzi-blog-markdown-pagea-74-439"
+      "plugin": "a7456010"
     },
-    "content": "content---renzi-blog-markdown-page-393-412"
-  },
-  "/renzi-blog/tags-77e": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
-    "__context": {
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "__props": "__props---renzi-blog-tags-2-df-a85"
-  },
-  "/renzi-blog/tags/note-646": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "items": [
-      {
-        "content": "content---renzi-blog-tags-note-982-098"
-      }
-    ],
-    "__props": "__props---renzi-blog-tags-note-63-d-96d"
-  },
-  "/renzi-blog/-445": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
-    "__context": {
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "items": [
-      {
-        "content": "content---renzi-blog-tags-note-982-098"
-      }
-    ],
-    "__props": "__props---renzi-blog-6-d-0-6a3"
+    "content": "393be207"
   },
   "/renzi-blog/-646": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---renzi-blog-markdown-pagea-74-439"
+      "plugin": "a7456010"
     },
-    "config": "config---renzi-blog-5-e-9-eb0"
+    "config": "5e9f5e1a"
   }
 }
