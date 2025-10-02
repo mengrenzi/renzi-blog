@@ -1,0 +1,40 @@
+{
+  "permalink": "/renzi-blog/hello-world",
+  "source": "@site/blog/2025-10-08-hello-world.md",
+  "title": "我的第一篇文章",
+  "description": "这是我用 Docusaurus v3 创建的第一篇文章 🎉",
+  "date": "2025-10-08T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "note",
+      "permalink": "/renzi-blog/tags/note"
+    }
+  ],
+  "readingTime": 0.1,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Renzi Meng",
+      "title": "Ex-Meta Software engineer",
+      "url": "https://www.linkedin.com/in/renzimeng",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/renzimeng/",
+        "github": "https://github.com/mengrenzi"
+      },
+      "imageURL": "https://github.com/mengrenzi/renzi-blog/blob/main/static/img/Renzi.JPG?raw=true",
+      "key": "renzi",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "hello-world",
+    "title": "我的第一篇文章",
+    "authors": "renzi",
+    "tags": [
+      "note"
+    ],
+    "draft": true
+  },
+  "unlisted": false
+}

@@ -1,4 +1,11 @@
 {
   "title": "Recent posts",
-  "items": []
+  "items": [
+    {
+      "title": "我的第一篇文章",
+      "permalink": "/renzi-blog/hello-world",
+      "unlisted": false,
+      "date": "2025-10-01T00:00:00.000Z"
+    }
+  ]
 }
