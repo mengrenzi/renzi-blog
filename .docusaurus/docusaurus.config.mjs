@@ -27,10 +27,10 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://USERNAME.github.io",
+  "url": "https://mengrenzi.github.io",
   "baseUrl": "/renzi-blog/",
-  "organizationName": "renzimeng",
-  "projectName": "renzimeng.github.io",
+  "organizationName": "mengrenzi",
+  "projectName": "mengrenzi.github.io",
   "onBrokenLinks": "throw",
   "trailingSlash": false,
   "i18n": {
