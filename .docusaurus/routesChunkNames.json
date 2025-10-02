@@ -60,58 +60,6 @@
     "sidebar": "sidebar---renzi-blog-authors-814-13c",
     "__props": "__props---renzi-blog-authors-8-c-5-1a1"
   },
-  "/renzi-blog/authors/all-sebastien-lorber-articles-edb": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---renzi-blog-authorsace-9a3"
-      },
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "items": [
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-766-f9b"
-      },
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articlesf-4-f-5dd"
-      },
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-925-a97"
-      }
-    ],
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "__props": "__props---renzi-blog-authors-all-sebastien-lorber-articles-29-c-fcd"
-  },
-  "/renzi-blog/authors/yangshun-776": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---renzi-blog-authorsace-9a3"
-      },
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "items": [
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-766-f9b"
-      },
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-925-a97"
-      }
-    ],
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "__props": "__props---renzi-blog-authors-yangshun-120-aa8"
-  },
-  "/renzi-blog/first-blog-post-0d4": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---renzi-blog-authorsace-9a3"
-      },
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "content": "content---renzi-blog-first-blog-poste-27-308"
-  },
   "/renzi-blog/hello-world-795": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -130,17 +78,6 @@
     },
     "content": "content---renzi-blog-markdown-page-393-412"
   },
-  "/renzi-blog/mdx-blog-post-13a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---renzi-blog-authorsace-9a3"
-      },
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "content": "content---renzi-blog-mdx-blog-post-593-fc1"
-  },
   "/renzi-blog/tags-77e": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
@@ -149,7 +86,7 @@
     "sidebar": "sidebar---renzi-blog-authors-814-13c",
     "__props": "__props---renzi-blog-tags-2-df-a85"
   },
-  "/renzi-blog/tags/demo-491": {
+  "/renzi-blog/tags/note-646": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---renzi-blog-archive-369-503"
@@ -157,94 +94,12 @@
     "sidebar": "sidebar---renzi-blog-authors-814-13c",
     "items": [
       {
-        "content": "content---renzi-blog-tags-demo-982-63b"
+        "content": "content---renzi-blog-tags-note-982-098"
       }
     ],
-    "__props": "__props---renzi-blog-tags-democ-10-c91"
+    "__props": "__props---renzi-blog-tags-note-63-d-96d"
   },
-  "/renzi-blog/tags/docusaurus-1c3": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "items": [
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-766-f9b"
-      },
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articlesf-4-f-5dd"
-      },
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-925-a97"
-      }
-    ],
-    "__props": "__props---renzi-blog-tags-docusaurus-3-fb-2b0"
-  },
-  "/renzi-blog/tags/facebook-c4e": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "items": [
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-766-f9b"
-      }
-    ],
-    "__props": "__props---renzi-blog-tags-facebook-83-f-b76"
-  },
-  "/renzi-blog/tags/hello-3b3": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "items": [
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-766-f9b"
-      }
-    ],
-    "__props": "__props---renzi-blog-tags-hellof-92-c4a"
-  },
-  "/renzi-blog/tags/hola-a18": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "items": [
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-925-a97"
-      }
-    ],
-    "__props": "__props---renzi-blog-tags-hola-37-e-c74"
-  },
-  "/renzi-blog/tags/学习笔记-4f5": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "items": [
-      {
-        "content": "content---renzi-blog-tags-demo-982-63b"
-      }
-    ],
-    "__props": "__props---renzi-blog-tags-学习笔记-61-c-088"
-  },
-  "/renzi-blog/welcome-737": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---renzi-blog-authorsace-9a3"
-      },
-      "plugin": "plugin---renzi-blog-archive-369-503"
-    },
-    "sidebar": "sidebar---renzi-blog-authors-814-13c",
-    "content": "content---renzi-blog-welcomed-9-f-92c"
-  },
-  "/renzi-blog/-af2": {
+  "/renzi-blog/-445": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---renzi-blog-archive-369-503"
@@ -252,16 +107,7 @@
     "sidebar": "sidebar---renzi-blog-authors-814-13c",
     "items": [
       {
-        "content": "content---renzi-blog-tags-demo-982-63b"
-      },
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-766-f9b"
-      },
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articlesf-4-f-5dd"
-      },
-      {
-        "content": "content---renzi-blog-authors-all-sebastien-lorber-articles-925-a97"
+        "content": "content---renzi-blog-tags-note-982-098"
       }
     ],
     "__props": "__props---renzi-blog-6-d-0-6a3"

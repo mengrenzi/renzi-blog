@@ -1,34 +1,8 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
-
 renzi:
   name: Renzi Meng
   title: Ex-Meta Software engineer
   url: https://www.linkedin.com/in/renzimeng
-  image_url: https://www.facebook.com/photo/?fbid=2283569445342045&set=a.107865746245770
+  image_url: https://github.com/mengrenzi/renzi-blog/blob/main/Renzi.JPG?raw=true
   socials:
     linkedin: renzimeng
     github: mengrenzi

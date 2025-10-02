@@ -48,21 +48,6 @@ export default [
     exact: true
   },
   {
-    path: '/renzi-blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/renzi-blog/authors/all-sebastien-lorber-articles', 'edb'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/authors/yangshun',
-    component: ComponentCreator('/renzi-blog/authors/yangshun', '776'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/first-blog-post',
-    component: ComponentCreator('/renzi-blog/first-blog-post', '0d4'),
-    exact: true
-  },
-  {
     path: '/renzi-blog/hello-world',
     component: ComponentCreator('/renzi-blog/hello-world', '795'),
     exact: true
@@ -73,53 +58,18 @@ export default [
     exact: true
   },
   {
-    path: '/renzi-blog/mdx-blog-post',
-    component: ComponentCreator('/renzi-blog/mdx-blog-post', '13a'),
-    exact: true
-  },
-  {
     path: '/renzi-blog/tags',
     component: ComponentCreator('/renzi-blog/tags', '77e'),
     exact: true
   },
   {
-    path: '/renzi-blog/tags/demo',
-    component: ComponentCreator('/renzi-blog/tags/demo', '491'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/tags/docusaurus',
-    component: ComponentCreator('/renzi-blog/tags/docusaurus', '1c3'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/tags/facebook',
-    component: ComponentCreator('/renzi-blog/tags/facebook', 'c4e'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/tags/hello',
-    component: ComponentCreator('/renzi-blog/tags/hello', '3b3'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/tags/hola',
-    component: ComponentCreator('/renzi-blog/tags/hola', 'a18'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/tags/学习笔记',
-    component: ComponentCreator('/renzi-blog/tags/学习笔记', '4f5'),
-    exact: true
-  },
-  {
-    path: '/renzi-blog/welcome',
-    component: ComponentCreator('/renzi-blog/welcome', '737'),
+    path: '/renzi-blog/tags/note',
+    component: ComponentCreator('/renzi-blog/tags/note', '646'),
     exact: true
   },
   {
     path: '/renzi-blog/',
-    component: ComponentCreator('/renzi-blog/', 'af2'),
+    component: ComponentCreator('/renzi-blog/', '445'),
     exact: true
   },
   {

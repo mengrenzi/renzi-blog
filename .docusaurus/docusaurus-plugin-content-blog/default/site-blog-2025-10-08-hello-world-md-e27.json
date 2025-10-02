@@ -8,13 +8,8 @@
   "tags": [
     {
       "inline": true,
-      "label": "学习笔记",
-      "permalink": "/renzi-blog/tags/学习笔记"
-    },
-    {
-      "inline": true,
-      "label": "demo",
-      "permalink": "/renzi-blog/tags/demo"
+      "label": "note",
+      "permalink": "/renzi-blog/tags/note"
     }
   ],
   "readingTime": 0.1,
@@ -28,7 +23,7 @@
         "linkedin": "https://www.linkedin.com/in/renzimeng/",
         "github": "https://github.com/mengrenzi"
       },
-      "imageURL": "https://www.facebook.com/photo/?fbid=2283569445342045&set=a.107865746245770",
+      "imageURL": "https://github.com/mengrenzi/renzi-blog/blob/main/Renzi.JPG?raw=true",
       "key": "renzi",
       "page": null
     }
@@ -38,14 +33,9 @@
     "title": "我的第一篇文章",
     "authors": "renzi",
     "tags": [
-      "学习笔记",
-      "demo"
+      "note"
     ],
     "draft": true
   },
-  "unlisted": false,
-  "nextItem": {
-    "title": "Welcome",
-    "permalink": "/renzi-blog/welcome"
-  }
+  "unlisted": false
 }
